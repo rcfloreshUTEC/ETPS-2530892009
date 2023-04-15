@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="359dp"
+        android:layout_height="547dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txv3Pais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pais 1" />
+
+            <Spinner
+                android:id="@+id/spPais1"
+                android:layout_width="match_parent"
+                android:layout_height="78dp" />
+
+            <TextView
+                android:id="@+id/txvPais2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pais 2" />
+
+            <Spinner
+                android:id="@+id/spPais2"
+                android:layout_width="match_parent"
+                android:layout_height="98dp" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="guardar"
+                android:text="Guardar" />
+
+            <EditText
+                android:id="@+id/edtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
