@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "373314525381",
+    "firebase_url": "https://etps012023-4ta-default-rtdb.firebaseio.com",
+    "project_id": "etps012023-4ta",
+    "storage_bucket": "etps012023-4ta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373314525381:android:526ad0dc1c0f24f9a4f8ac",
+        "android_client_info": {
+          "package_name": "sv.edu.utec.tareainvestigacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373314525381-ena5el1ot8vj41ktb2dih17hqmggnddv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sv.edu.utec.tareainvestigacion",
+            "certificate_hash": "5c2c789b6c5f0b327d31ad7e616af18b2fdda1dc"
+          }
+        },
+        {
+          "client_id": "373314525381-g85fd6kvvn4nej6u3sv6ff84h36ftudi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxlzAw4BCogWySJ3RacW-EELY2Ek4kdMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373314525381-g85fd6kvvn4nej6u3sv6ff84h36ftudi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
